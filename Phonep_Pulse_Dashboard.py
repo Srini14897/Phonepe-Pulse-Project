@@ -31,10 +31,10 @@ with colT2:
 
 c1,c2,c3=st.columns(3)
 with c1:
-    year=st.selectbox('# :violet[PLEASE SELECT THE YEAR]',('2018','2019','2020','2021','2022'))
+    year=st.selectbox('# :white[PLEASE SELECT THE YEAR]',('2018','2019','2020','2021','2022'))
     
 with c2:
-   quarter=st.selectbox('# :violet[PLEASE SELECT THE QUARTER]',('1','2','3','4'))
+   quarter=st.selectbox('# :white[PLEASE SELECT THE QUARTER]',('1','2','3','4'))
 
 year=int(year)
 quarter=int(quarter)
@@ -131,7 +131,7 @@ with coliT2:
 # -----------------------------------------------FIGURE2 HIDDEN BARGRAPH------------------------------------------------------------------------
 Coropleth_Dataset = Coropleth_Dataset.sort_values(by=['Total_Transactions'])
 fig = px.bar(Coropleth_Dataset, x='state', y='Total_Transactions',title=str(year)+" Quarter-"+str(quarter))
-with st.expander("# :violet[See Bar graph for the same data"):
+with st.expander("# :white[See Bar graph for the same data"):
     st.plotly_chart(fig, use_container_width=True)
     st.info('**:blue[The above bar graph showing the increasing order of PhonePe Transactions according to the states of India, Here we can observe the top states with highest Transaction by looking at graph]**')
 
@@ -150,7 +150,7 @@ with tab1:
     col1, col2= st.columns(2)
     with col1:
         mode = st.selectbox(
-            '# :violet[PLEASE SELECT THE MODE]',
+            '# :white[PLEASE SELECT THE MODE]',
             ('Recharge & bill payments', 'Peer-to-peer payments', 'Merchant payments', 'Financial Services','Others'),key='a')
     with col2:
         state = st.selectbox(
