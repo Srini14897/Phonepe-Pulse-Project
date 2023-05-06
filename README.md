@@ -30,7 +30,7 @@ Clone the repository to your local machine.
 Navigate to the project directory in the terminal.
 Install the required packages by running pip install -r requirements.txt.
 Run the command streamlit run app.py.
-The project should now be running on '' in your web browser.
+The project should now be running on 'local host' in your web browser.
 
 
 **Future Scope**
