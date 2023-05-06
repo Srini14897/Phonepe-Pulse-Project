@@ -3,6 +3,7 @@
 This is a Python project that analyzes the usage statistics of the PhonePe app, visualizes the data, and provides insights to the end-users.
 
 **Project Description**
+
 The PhonePe Pulse project has four tabs that allow the user to analyze the usage of the PhonePe app in different ways.
 
 State Analysis: This tab allows the user to select a state and view the percentage of app openings and registered users over time.
@@ -14,11 +15,13 @@ Year Analysis: This tab allows the user to select a year and view the trends in 
 Overall Analysis: This tab provides an overview of the PhonePe app usage across the country, including the total number of app openings and registered users.
 
 **Technologies Used**
+
 Python
 Streamlit
 Plotly
 
 **How to Run the Project**
+
 Clone the repository to your local machine.
 Navigate to the project directory in the terminal.
 Install the required packages by running pip install -r requirements.txt.
