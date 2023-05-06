@@ -31,10 +31,10 @@ with colT2:
 
 c1,c2,c3=st.columns(3)
 with c1:
-    year=st.selectbox('# :black[PLEASE SELECT THE YEAR]',('2018','2019','2020','2021','2022'))
+    year=st.selectbox('PLEASE SELECT THE YEAR',('2018','2019','2020','2021','2022'))
     
 with c2:
-   quarter=st.selectbox('# :black[PLEASE SELECT THE QUARTER]',('1','2','3','4'))
+   quarter=st.selectbox('PLEASE SELECT THE QUARTER',('1','2','3','4'))
 
 year=int(year)
 quarter=int(quarter)
@@ -150,11 +150,11 @@ with tab1:
     col1, col2= st.columns(2)
     with col1:
         mode = st.selectbox(
-            '# :white[PLEASE SELECT THE MODE]',
+            '#PLEASE SELECT THE MODE',
             ('Recharge & bill payments', 'Peer-to-peer payments', 'Merchant payments', 'Financial Services','Others'),key='a')
     with col2:
         state = st.selectbox(
-        '# :violet[PLEASE SELECT THE STATE]',
+        'PLEASE SELECT THE STATE',
         ('andaman-&-nicobar-islands', 'andhra-pradesh', 'arunachal-pradesh',
         'assam', 'bihar', 'chandigarh', 'chhattisgarh',
         'dadra-&-nagar-haveli-&-daman-&-diu', 'delhi', 'goa', 'gujarat',
