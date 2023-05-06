@@ -150,7 +150,7 @@ with tab1:
     col1, col2= st.columns(2)
     with col1:
         mode = st.selectbox(
-            '#PLEASE SELECT THE MODE',
+            'PLEASE SELECT THE MODE',
             ('Recharge & bill payments', 'Peer-to-peer payments', 'Merchant payments', 'Financial Services','Others'),key='a')
     with col2:
         state = st.selectbox(
@@ -382,11 +382,11 @@ with tab2:
     col1, col2, col3= st.columns(3)
     with col1:
         Year = st.selectbox(
-            '# :violet[PLEASE SELECT THE YEAR]',
+            'PLEASE SELECT THE YEAR',
             ('2022', '2021','2020','2019','2018'),key='y12')
     with col2:
         state = st.selectbox(
-        '# :violet[PLEASE SELECT THE STATE]',
+        'PLEASE SELECT THE STATE',
         ('andaman-&-nicobar-islands', 'andhra-pradesh', 'arunachal-pradesh',
         'assam', 'bihar', 'chandigarh', 'chhattisgarh',
         'dadra-&-nagar-haveli-&-daman-&-diu', 'delhi', 'goa', 'gujarat',
@@ -548,13 +548,13 @@ st.sidebar.markdown("<h1 style='color: BLACK;'>TOP 3 STATES DATA</h1>", unsafe_a
 c1,c2=st.columns(2)
 with c1:
     Year = st.sidebar.selectbox(
-            '# :violet[PLEASE SELECT THE YEAR]',
+            'PLEASE SELECT THE YEAR',
             ('2022', '2021','2020','2019','2018'),key='y1h2k')  
 
 cl1,cl2=st.columns(2)
 with cl1:
     Quarter = st.sidebar.selectbox(
-            '# :violet[PLEASE SELECT THE QUARTER]',
+            'PLEASE SELECT THE QUARTER',
             ('1', '2', '3','4'),key='qgwe2')
 
 Data_Map_User_df=Data_Aggregated_User_Summary_df.copy() 
