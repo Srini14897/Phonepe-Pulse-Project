@@ -31,10 +31,10 @@ with colT2:
 
 c1,c2,c3=st.columns(3)
 with c1:
-    year=st.selectbox('# :white[PLEASE SELECT THE YEAR]',('2018','2019','2020','2021','2022'))
+    year=st.selectbox('# :black[PLEASE SELECT THE YEAR]',('2018','2019','2020','2021','2022'))
     
 with c2:
-   quarter=st.selectbox('# :white[PLEASE SELECT THE QUARTER]',('1','2','3','4'))
+   quarter=st.selectbox('# :black[PLEASE SELECT THE QUARTER]',('1','2','3','4'))
 
 year=int(year)
 quarter=int(quarter)
