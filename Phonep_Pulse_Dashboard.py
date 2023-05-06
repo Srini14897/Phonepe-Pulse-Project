@@ -440,7 +440,7 @@ with tab3:
     with col1:
         state = st.selectbox(
         'Please select the State',
-        ('india','andaman-&-nicobar-islands', 'andhra-pradesh', 'arunachal-pradesh',
+        ('andaman-&-nicobar-islands', 'andhra-pradesh', 'arunachal-pradesh',
         'assam', 'bihar', 'chandigarh', 'chhattisgarh',
         'dadra-&-nagar-haveli-&-daman-&-diu', 'delhi', 'goa', 'gujarat',
         'haryana', 'himachal-pradesh', 'jammu-&-kashmir',
