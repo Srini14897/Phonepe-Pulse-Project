@@ -1,10 +1,14 @@
 # Phonepe-Pulse-Project
 
+
+
 Link : https://srini14897-phonepe-pulse-project-phonep-pulse-dashboard-x99ad3.streamlit.app/
 
 This is a Python project that analyzes the usage statistics of the PhonePe app, visualizes the data, and provides insights to the end-users.
+![Dashboard_Local_host](https://user-images.githubusercontent.com/112272390/236646733-dca8fd0b-3a8c-4cfb-8664-882540f5849a.jpg)
 
 **Project Description**
+
 
 The PhonePe Pulse project has four tabs that allow the user to analyze the usage of the PhonePe app in different ways.
 
