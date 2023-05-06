@@ -17,7 +17,9 @@ Overall Analysis: This tab provides an overview of the PhonePe app usage across 
 **Technologies Used**
 
 Python
+
 Streamlit
+
 Plotly
 
 **How to Run the Project**
