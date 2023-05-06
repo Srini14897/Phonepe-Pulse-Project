@@ -17,11 +17,14 @@ Technologies Used
 Python
 Streamlit
 Plotly
+
 How to Run the Project
 Clone the repository to your local machine.
 Navigate to the project directory in the terminal.
 Install the required packages by running pip install -r requirements.txt.
 Run the command streamlit run app.py.
-The project should now be running on localhost:8501 in your web browser.
+The project should now be running on '' in your web browser.
+
+
 Future Scope
 The PhonePe Pulse project can be further improved by adding more features such as user engagement metrics, transaction volumes, and fraud detection. Additionally, the user interface can be enhanced by adding more interactive components and visualizations.
